@@ -4132,4 +4132,21 @@ p.footer-address {
   color: #111;
 }
 
+.fa-chevron-left{
+  top: 50%;
+  position: absolute;
+  left: 17%;
+}
+.fa-chevron-right{
+  top: 50%;
+  position: absolute;
+  right: 17%;
+}
+
+
+
+
+
+
+
 /*# sourceMappingURL=style.css.map */

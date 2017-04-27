@@ -321,6 +321,10 @@
   .entry-comments .comment-avatar {
     width: 60px;
   }
+
+  .item{
+    width: 168%;
+  }
   .entry-comments .comment-content {
     padding-left: 80px;
   }
