@@ -28,7 +28,7 @@
 }
 
 .section-wrap, .section-wrap-mp {
-  padding: 150px 0;
+  padding: 120px 0;
   overflow: hidden;
   background-attachment: fixed;
   -webkit-background-size: cover;
@@ -4173,7 +4173,7 @@ body {
   font-size: 100%;
   font-family: "Helvetica Neue", sans-serif;
   color: #39393c;
-  background-color: #dadee1;
+  background-color: #f7f7f7;
 }
 
 a {
@@ -4626,7 +4626,7 @@ Main components
 .subheader-left{
   color: #000;
   font-size: 18px;
-  font-weight: 100;
+  font-weight: 300;
   line-height: 60px;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 0.02em;
@@ -4641,7 +4641,7 @@ Main components
 .subheader-right{
   color: #000;
   font-size: 18px;
-  font-weight: 100;
+  font-weight: 300;
   line-height: 60px;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 0.02em;
@@ -4679,6 +4679,17 @@ Main components
   position: absolute;
   top: 47%;
   left: 8.3%;
+}
+
+.nyc{
+  line-height:45px; 
+  top:16%;
+  left: 7%;
+}
+
+.sub-nyc{
+  top:30%;
+  left: 7%;
 }
 
 

@@ -1,5 +1,5 @@
 /* Magnific Popup CSS */
-.mfp-bg {
+/*.mfp-bg {
   top: 0;
   left: 0;
   width: 100%;
@@ -254,10 +254,10 @@ button::-moz-focus-inner {
     width: 100%;
     height: 100%;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
-    background: #000; }
+    background: #000; }*/
 
 /* Main image in popup */
-img.mfp-img {
+/*img.mfp-img {
   width: auto;
   max-width: 100%;
   height: auto;
@@ -267,10 +267,10 @@ img.mfp-img {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 40px 0 40px;
-  margin: 0 auto; }
+  margin: 0 auto; }*/
 
 /* The shadow behind the image */
-.mfp-figure {
+./*mfp-figure {
   line-height: 0; }
   .mfp-figure:after {
     content: '';
@@ -318,7 +318,7 @@ img.mfp-img {
   /**
        * Remove all paddings around the image on small screen
        */
-  .mfp-img-mobile .mfp-image-holder {
+ /* .mfp-img-mobile .mfp-image-holder {
     padding-left: 0;
     padding-right: 0; }
   .mfp-img-mobile img.mfp-img {
@@ -353,9 +353,9 @@ img.mfp-img {
     background: rgba(0, 0, 0, 0.6);
     position: fixed;
     text-align: center;
-    padding: 0; } }
+    padding: 0; } }*/
 
-@media all and (max-width: 900px) {
+/*@media all and (max-width: 900px) {
   .mfp-arrow {
     -webkit-transform: scale(0.75);
     transform: scale(0.75); }
@@ -388,4 +388,4 @@ img.mfp-img {
 .mfp-ie7 .mfp-close {
   top: 0;
   right: 0;
-  padding-top: 0; }
+  padding-top: 0; }*/*/

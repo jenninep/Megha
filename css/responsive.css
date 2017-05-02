@@ -303,6 +303,10 @@
   .sidenav .container {
     width: 100%;
   }
+  .carousel-control.right {
+    left: 25%;
+  }
+
 }
 
 @media (max-width: 640px) {
@@ -345,6 +349,68 @@
   .masonry-grid .work-item,
   .works-grid .work-item {
     width: 100%;
+  }
+  .nyc{
+    font-size: 25px;
+    line-height: 33px;
+    left: 2%;
+  }
+}
+@media (max-width: 414px) {
+ .sub-nyc {
+    top: 26%;
+    left: 2%;
+    font-size: 15px;
+  }
+  .cat{
+    font-size: 23px;
+    right: 61.5%;
+    top: 16%;
+  }
+  .sub-cat{
+    right: 70.5%;
+    font-size: 13px;
+    top: 20.5%;
+  }
+  .btn-cat{
+    right: 87%;
+    font-size: 13px;
+    top: 33%;
+  }
+}
+@media (max-width: 375px) {
+  .nyc{
+    font-size: 23px;
+    line-height: 30px;
+    left: 2%;
+  }
+  .cat{
+    font-size: 21px;
+  }
+  .sub-cat{
+    right: 68%;
+    font-size: 13px;
+    top: 21%;
+  }
+  .btn-cat{
+    right: 86%;
+    font-size: 13px;
+    top: 35%;
+  }
+
+}
+
+@media (max-width: 320px) {
+  .nyc{
+    font-size: 20px;
+    line-height: 26px;
+    left: 2%;
+    top: 19%
+  }
+  .sub-nyc{
+    font-size: 13px;
+    top: 28%;
+    left: 2%;
   }
 }
 
