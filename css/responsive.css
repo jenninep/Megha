@@ -322,8 +322,8 @@
     width: 60px;
   }
 
-  .item{
-    width: 168%;
+  .carousel-inner{
+    width: 250%;
   }
   .entry-comments .comment-content {
     padding-left: 80px;
