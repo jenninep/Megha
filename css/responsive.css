@@ -304,7 +304,7 @@
     width: 100%;
   }
   .carousel-control.right {
-    left: 25%;
+    left: 32%;
   }
 
 }
@@ -355,6 +355,23 @@
     line-height: 33px;
     left: 2%;
   }
+  .realEstate{
+    font-size: 23px;
+    right: 76.5%;
+    top: 16%;
+    line-height: 31px;
+    text-align: left;
+  }
+  .sub-real{
+    right: 88.5%;
+    font-size: 13px;
+    top: 25.5%;
+  }
+  .btn-real{
+    right: 87%;
+    font-size: 12px;
+    top: 36%;
+  }
 }
 @media (max-width: 414px) {
  .sub-nyc {
@@ -367,6 +384,7 @@
     right: 61.5%;
     top: 16%;
   }
+  
   .sub-cat{
     right: 70.5%;
     font-size: 13px;
@@ -376,6 +394,20 @@
     right: 87%;
     font-size: 13px;
     top: 33%;
+  }
+  .rope{
+    right: 62.5%;
+    top: 17%;
+    font-size: 26px;
+    line-height: 37px;
+  }
+  .sub-rope {
+    top: 30%;
+    right: 82%;
+  }
+  .btn-rope{
+    right: 83%;
+    background-color: transparent;
   }
 }
 @media (max-width: 375px) {
@@ -392,12 +424,56 @@
     font-size: 13px;
     top: 21%;
   }
-  .btn-cat{
-    right: 86%;
+  .sub-real{
+    right: 88%;
     font-size: 13px;
-    top: 35%;
+    top: 25%;
   }
 
+  .btn-real{
+    font-size: 11px;
+  }
+  .btn-cat{
+    right: 87%;
+    font-size: 12px;
+    top: 35%;
+  }
+  .realEstate {
+    right: 74.5%;
+    top: 16%;
+    line-height: 30px;
+}
+
+@media (max-width: 360px) {
+  .nyc{
+    font-size: 20px;
+    line-height: 26px;
+    left: 2%;
+    top: 19%
+  }
+  .sub-nyc{
+    font-size: 13px;
+    top: 28%;
+    left: 2%;
+  }
+  .realEstate{
+    right: 73.5%;
+  }
+  .cat{
+    font-size: 20px;
+  }
+  .sub-cat{
+    font-size: 12px;
+    right: 68.5%;
+  }
+  .btn-cat{
+    right: 85.5%;
+    top: 35%;
+  }
+  .rope{
+    font-size: 24px;
+    line-height: 31px;
+  }
 }
 
 @media (max-width: 320px) {

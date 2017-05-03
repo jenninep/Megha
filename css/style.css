@@ -3638,7 +3638,7 @@ ol.numbers {
   -o-transition: all 0.2 ease-in-out;
   transition: all 0.2 ease-in-out;
   color: #fff;
-  background-color: #bfa67a;
+  background-color: #8c1471;
   border-color: transparent;
 }
 
@@ -4580,8 +4580,8 @@ Main components
   transition-property: transform;
 }
 .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+  -webkit-transform: scale(1.4);
+  transform: scale(1.4);
 }
 .carousel-fade .carousel-inner .item {
   opacity: 0;
@@ -4606,6 +4606,7 @@ Main components
 }
 .carousel-fade .carousel-control {
   z-index: 2;
+  width: 8%;
 }
 .text-left{
   color: #000;
@@ -4626,7 +4627,7 @@ Main components
 .subheader-left{
   color: #000;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 60px;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 0.02em;
@@ -4641,7 +4642,7 @@ Main components
 .subheader-right{
   color: #000;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 60px;
   font-family: "Montserrat", sans-serif;
   letter-spacing: 0.02em;
@@ -4680,18 +4681,34 @@ Main components
   top: 47%;
   left: 8.3%;
 }
-
 .nyc{
   line-height:45px; 
   top:16%;
   left: 7%;
 }
-
 .sub-nyc{
   top:30%;
   left: 7%;
 }
-
+.sub-real{
+  top:40%;"
+}
+.btn-real{
+  top:53%;
+}
+.rope{
+  right:33%;
+  text-align: left;
+  top: 20%;
+}
+.sub-rope{
+  top:32%;
+  right:56%;
+}
+.btn-rope{
+  top:42%;
+  right:57%;
+}
 
 
 
