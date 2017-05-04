@@ -497,7 +497,7 @@ p {
   }
   .logo-wrap img {
     height: 41px;
-    padding-left: 10px;
+    padding-left: 15px;
   }
   .logo-wrap > a {
     height: 60px;
@@ -4686,6 +4686,12 @@ Main components
   top:16%;
   left: 7%;
 }
+.enter2{
+  top:23%;
+}
+.sub-enter2{
+  top:36%;
+}
 .sub-nyc{
   top:30%;
   left: 7%;
@@ -4693,8 +4699,20 @@ Main components
 .sub-real{
   top:40%;"
 }
+.sub-enter1{
+  top:42%;
+  line-height:29px;
+  text-align:right;
+  font-size:17px;
+}
+.btn-enter1{
+  top:55%;
+}
+.btn-enter2{
+  top:48%;
+}
 .btn-real{
-  top:53%;
+  top:51%;
 }
 .rope{
   right:33%;
@@ -4710,8 +4728,13 @@ Main components
   right:57%;
 }
 
-
-
+.services-icon{
+  display: inline-block;
+  margin-bottom: 27px;
+}
+.navbar-toggle:focus .icon-bar, .navbar-toggle:hover .icon-bar {
+    background-color: black;
+}
 
 
 
