@@ -408,12 +408,16 @@
     line-height: 29px;
     top: 17%;
  }
- .enter1, .gloves, .money{
+ .enter1, .gloves, .money, .rope{
     font-size: 23px;
     right: 72.5%;
     top: 16%;
     line-height: 25px;
     text-align: left;
+  }
+  .rope{
+    right: 68.8%;
+    line-height: 30px;
   }
   .gloves{
     right: 70.8%;
@@ -436,12 +440,7 @@
   .kid{
     right: 63%;
   }
-  .rope{
-    right: 62.5%;
-    top: 17%;
-    font-size: 23px;
-    line-height: 37px;
-  }
+  
  .enter2, .marriage{
     font-size: 22px;
     right: 62.5%;
@@ -480,7 +479,7 @@
     text-align: left;
     line-height: 19px;
   }
-  .sub-enter2, .sub-marriage{
+  .sub-enter2, .sub-marriage, .sub-rope{
     right: 80.5%;
     font-size: 13px;
     top: 27.5%;
@@ -492,9 +491,9 @@
   }
   .sub-rope {
     top: 30%;
-    right: 82%;
+    right: 88%;
   }
-  .btn-cat, .btn-kid, .btn-dog, .btn-gloves, .btn-money{
+  .btn-cat, .btn-kid, .btn-dog, .btn-gloves, .btn-money, .btn-rope{
     right: 87%;
     font-size: 13px;
     top: 33%;
@@ -535,8 +534,8 @@
       top: 30%;
     }  
   .btn-rope{
-    right: 83%;
-    background-color: transparent;
+    top: 37%;
+    right: 86.5%;
   }
 }
 @media (max-width: 375px) {
@@ -546,7 +545,7 @@
     left: 2%;
     top: 18%;
   }
-  .cat, .enter1, .kid, .marriage, .gloves, .money{
+  .cat, .enter1, .kid, .marriage, .gloves, .money, .rope{
     font-size: 21px;
   }
   .cat{
@@ -594,6 +593,9 @@
     font-size: 12px;
     top: 28%;
   }
+  .sub-rope{
+    right: 87.2%;
+  }
   .sub-gloves{
     top: 25.7%;
   }
@@ -635,9 +637,12 @@
     right: 87.1%;
     top: 33%;
   }
-  .btn-kid, .btn-money{
+  .btn-kid, .btn-money, .btn-rope{
     right: 86%;
     font-size: 11px;
+  }
+  .btn-rope{
+    right: 86.7%;
   }
   .btn-money{
     right: 87%;
@@ -653,7 +658,7 @@
     left: 2%;
     top: 19%
   }
-  .marriage{
+  .marriage, .rope{
     font-size: 19px;
     right: 68.4%;
   }
@@ -687,8 +692,8 @@
     top: 37%;
     font-size: 11px;
   }
-  .sub-real{
-    right: 88.5%;
+  .sub-real, .sub-rope{
+    right: 87.9%;
     font-size: 11.5px;
   }
   .sub-enter1{
@@ -737,8 +742,8 @@
     top: 34%;
   }
   .rope{
-    font-size: 24px;
-    line-height: 31px;
+    line-height: 28px;
+    right: 70.4%;
   }
 }
 
@@ -750,7 +755,7 @@
     text-align: left;
     top: 19%;
   }
-  .nyc, .gloves, .money{
+  .nyc, .gloves, .money, .rope{
     font-size: 19px;
     line-height: 24px;
     left: 2%;
@@ -787,13 +792,16 @@
     left: 1.9%;
     font-size: 11px;
   }
-  .sub-nyc, .sub-gloves{
+  .sub-nyc, .sub-gloves, .sub-rope{
     font-size: 12px;
     top: 28%;
     left: 2%;
   }
   .sub-gloves{
     top: 27.3%;
+  }
+  .sub-rope{
+    top: 32%;
   }
   .sub-enter1, .sub-marriage{
     right: 71%;
@@ -820,7 +828,7 @@
     top: 30%;
     line-height: 13px;
   }
-  .btn-enter1, .btn-cat, .btn-real, .btn-kid, .btn-marriage, .btn-dog, .btn-gloves{
+  .btn-enter1, .btn-cat, .btn-real, .btn-kid, .btn-marriage, .btn-dog, .btn-gloves, .btn-rope{
     right: 85.6%;
     top: 39%;
     font-size: 10px;
@@ -838,7 +846,10 @@
     top: 40%;
   }
   .btn-money{
-    top:42%;"
+    top:42%;
+  }
+  .btn-rope{
+    
   }
   .btn-enter2{
     right: 86.6%;
