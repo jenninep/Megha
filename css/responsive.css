@@ -9,6 +9,43 @@
     padding: 40% 0;
   }
 }
+@media (max-width: 1024px) {
+  .sub-enter2 {top: 39%;} .sub-gloves, .sub-marriage{top:42%}
+  .nyc{
+    top: 19%;
+  }
+  .sub-nyc {
+    top: 35%;
+  }
+  .sub-enter1 {
+  top: 45%;
+  line-height: 24px;
+  }
+  .btn-enter1 {
+    top: 59%;
+  }
+  .rope {
+    right: 6%;
+    top: 21%;
+  }
+  .sub-rope {
+    top: 37%;
+    right: 37.7%;
+  }
+  .sub-money {
+    top: 42%;
+  }
+  .btn-rope {
+    top: 50%;
+    right: 39%;
+  }
+  .btn-enter2, .btn-gloves{
+    top: 53%;
+  }
+  .btn-money, .btn-marriage{
+    top: 55%;
+  }
+}
 
 @media (max-width: 991px) {
   .section-wrap,
@@ -206,22 +243,61 @@
   }
 }
 @media (max-width: 768px) {
-  .sub-real{
-    top: 45%;
+  .realEstate, .cat, .nyc, .enter1, .enter2, .kid, .marriage, .rope, .dog, .gloves, .money{
+    font-size: 25px;
+    line-height: 31px;
   }
+  .nyc{
+    top: 20.5%;
+    line-height: 30px;
+  }
+  .rope{
+    right: 8%;
+    text-align: left;
+    top: 23%;
+  }
+  .sub-nyc{
+    top: 33%;
+    left: 7.2%;
+  }
+  .sub-cat{top: 32%;} .sub-dog{top: 31%;} .sub-real{top: 41%;} .sub-rope {top: 36%;right: 37%;}
   .btn-real{
-    top: 61%;
+    top: 59%;
   }
   .btn-cat{
     top: 51%
   }
-  .sub-nyc, .sub-cat, .sub-real, .sub-enter1, .sub-enter2, .sub-kid, .sub-marriage{
-    font-size: 13px;
-
+  .btn-enter1{
+    top: 60%;
   }
-  .realEstate, .cat, .nyc, .enter1, .enter2, .kid, .marriage{
-    font-size: 25px;
-    line-height: 31px;
+  .btn-enter2{
+    top: 52%;
+  }
+  .btn-kid{
+    top: 49%;
+  }
+  .btn-gloves, .btn-money{
+    top: 54%;
+  }
+  .btn-marriage{
+    top: 56%;
+  }
+  .btn-dog{
+    top: 47%;
+  }
+  .btn-rope {
+    top: 52%;
+    right: 35.7%;
+  }
+  .sub-enter1{
+    line-height: 19px;
+    top: 44%;
+  }
+  .sub-nyc, .sub-cat, .sub-real, .sub-enter1, .sub-enter2, .sub-kid, .sub-marriage, .sub-money, .sub-rope, .sub-gloves, .sub-dog{
+    font-size: 13px;
+  }
+  .btn-nyc, .btn-cat, .btn-real, .btn-enter1, .btn-enter2, .btn-kid, .btn-marriage, .btn-money, .btn-dog, .btn-rope, .btn-gloves{
+    font-size: 12px;
   }
 }
 @media (max-width: 767px) {
@@ -327,7 +403,7 @@
 }
 @media (max-width: 736px) {
   .carousel-control.right {
-    /*left: 92%;*/
+    left: 92%;
   }
   .btn-dog{
     right: 8.3%;
@@ -403,6 +479,9 @@
   }
 }
 @media (max-width: 414px) {
+  .carousel-control.right {
+    left: 32%;
+  }
  .nyc{
     font-size: 23px;
     line-height: 29px;
@@ -788,7 +867,7 @@
     right: 67.5%;
   }
   .sub-money{
-    top: 28%;
+    top: 27%;
     left: 1.9%;
     font-size: 11px;
   }
