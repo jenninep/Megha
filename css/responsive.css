@@ -329,6 +329,13 @@
   .carousel-control.right {
     /*left: 92%;*/
   }
+  .btn-dog{
+    right: 8.3%;
+  }
+  .sub-enter1{
+    line-height: 18px;
+    top: 44%;
+  }
 }
 @media (max-width: 640px) {
   .overlay-menu ul li a {
@@ -396,15 +403,75 @@
   }
 }
 @media (max-width: 414px) {
- .sub-nyc {
-    top: 26%;
+ .nyc{
+    font-size: 23px;
+    line-height: 29px;
+    top: 17%;
+ }
+ .enter1, .gloves, .money{
+    font-size: 23px;
+    right: 72.5%;
+    top: 16%;
+    line-height: 25px;
+    text-align: left;
+  }
+  .gloves{
+    right: 70.8%;
+    top: 18%;
+  }
+  .cat, .kid, .dog, .money{
+    font-size: 23px;
+    right: 61.5%;
+    top: 16%;
+  }
+  .money{
+    right: 75.5%;
+    line-height: 29px;
+  }
+ 
+  .dog{
+    font-size: 22px;
+    right: 61.7%
+  }
+  .kid{
+    right: 63%;
+  }
+  .rope{
+    right: 62.5%;
+    top: 17%;
+    font-size: 23px;
+    line-height: 37px;
+  }
+ .enter2, .marriage{
+    font-size: 22px;
+    right: 62.5%;
+    top: 16%;
+    line-height: 25px;
+    text-align: left;
+  }
+  .marriage{
+    right: 67.5%;
+  }
+ .sub-nyc, .sub-money {
+    top: 27%;
     left: 2%;
     font-size: 13px;
   }
-  .sub-cat {
+  .sub-money{
+    top: 24.6%;
+    left: 2.2%;
+  }
+  .sub-kid{
+    top: 19%;
+    left: 2.8%;
+  }
+  .sub-cat, .sub-dog, .sub-gloves{
     right: 70.5%;
     font-size: 13px;
     top: 20.5%;
+  }
+  .sub-dog{
+    right: 89.5%
   }
   .sub-enter1{
     right: 70.5%;
@@ -413,60 +480,60 @@
     text-align: left;
     line-height: 19px;
   }
-  .sub-enter2{
+  .sub-enter2, .sub-marriage{
     right: 80.5%;
     font-size: 13px;
     top: 27.5%;
     text-align: left;
     line-height: 19px;
   }
+  .sub-marriage{
+    right: 74.5%;
+  }
   .sub-rope {
     top: 30%;
     right: 82%;
   }
-  .enter1{
-    font-size: 23px;
-    right: 72.5%;
-    top: 16%;
-    line-height: 25px;
-    text-align: left;
-  }
-  .enter2{
-    font-size: 22px;
-    right: 62.5%;
-    top: 16%;
-    line-height: 25px;
-    text-align: left;
-  }
-  .cat{
-    font-size: 23px;
-    right: 61.5%;
-    top: 16%;
-  }
-  .rope{
-    right: 62.5%;
-    top: 17%;
-    font-size: 26px;
-    line-height: 37px;
-  }
-  .btn-cat{
+  .btn-cat, .btn-kid, .btn-dog, .btn-gloves, .btn-money{
     right: 87%;
     font-size: 13px;
     top: 33%;
     background-color: transparent;
   }
-  .btn-enter1{
+  .btn-gloves{
+    right: 86.5%;
+    top: 36%;
+  }
+  .sub-gloves{
+    right: 89.7%;
+    top: 25.5%;
+  }
+  .btn-dog{
+    right: 86.5%;
+  }
+  .btn-enter1, .btn-marriage{
     right: 86%;
     font-size: 13px;
     top: 38%;
     background-color: transparent;
   }
-   .btn-enter2{
+  .btn-marriage{
+    top: 35%;
+  }
+  .btn-money{
+    right: 86.5%;
+    top: 36%;
+  }
+  .btn-enter2 {
     right: 87%;
     font-size: 13px;
     top: 35%;
     background-color: transparent;
-    }   
+    } 
+  .btn-kid{
+      right: 85.8%;
+      top: 30%;
+    }  
   .btn-rope{
     right: 83%;
     background-color: transparent;
@@ -474,12 +541,29 @@
 }
 @media (max-width: 375px) {
   .nyc{
-    font-size: 23px;
-    line-height: 30px;
+    font-size: 22px;
+    line-height: 28px;
     left: 2%;
+    top: 18%;
   }
-  .cat, .enter1{
+  .cat, .enter1, .kid, .marriage, .gloves, .money{
     font-size: 21px;
+  }
+  .cat{
+    top: 18%;
+  }
+
+  .marriage{
+    right: 66.4%;
+    top: 16%;
+    line-height: normal;
+  }
+  .dog {
+    font-size: 20px;
+    right: 61.8%;
+  }
+  .kid{
+    right: 62.5%;
   }
   .enter2{
     font-size: 20px;
@@ -490,42 +574,75 @@
     top: 16%;
     line-height: 30px;
   }
-  .sub-cat{
+  .sub-cat, .sub-dog{
     right: 68%;
     font-size: 13px;
     top: 21%;
+  }
+  .sub-nyc{
+    top: 28%;
+  }
+  .sub-dog{
+    right: 89%;
   }
   .sub-real{
     right: 87.8%;
     font-size: 13px;
     top: 26%;
   }
-  .sub-enter1{
-    right: 68%;
-    font-size: 13px;
+  .sub-enter1, .sub-marriage, .sub-gloves{
+    font-size: 12px;
     top: 28%;
+  }
+  .sub-gloves{
+    top: 25.7%;
+  }
+  .sub-money{
+    top: 25.6%;
+    left: 1.9%;
+  }
+  .sub-enter1{
+    right: 70%;
+  } 
+  .sub-marriage{
+    right: 74.4%;
   }
   .sub-enter2{
     right: 78.5%;
   }
-  .btn-enter2{
+  .btn-enter2, .btn-gloves{
     right: 87%;
     font-size: 11px;
+  }
+  .btn-gloves{
+    top: 38%;
   }
   .btn-enter1{
     font-size: 11px;
     top: 39%;
     right: 86.5%;
   }
-  .btn-real{
+  .btn-real, .btn-marriage{
     font-size: 11px;
     top: 37%;
-
   }
-  .btn-cat{
+  .btn-cat, .btn-dog{
     right: 87.5%;
     font-size: 11px;
     top: 35%;
+  }
+  .btn-dog{
+    right: 87.1%;
+    top: 33%;
+  }
+  .btn-kid, .btn-money{
+    right: 86%;
+    font-size: 11px;
+  }
+  .btn-money{
+    right: 87%;
+    top: 37.6%;
+    left: 2.3%;
   }
 }
 
@@ -536,37 +653,88 @@
     left: 2%;
     top: 19%
   }
+  .marriage{
+    font-size: 19px;
+    right: 68.4%;
+  }
+  .money{
+    right: 74.5%;
+  }
+  .gloves{
+    right: 69.8%;
+  }
+
+  .kid{
+    right: 61.5%;
+  }
+  .dog{
+    font-size: 19px;
+    right: 61.8%;
+  }
   .sub-nyc{
-    font-size: 13px;
+    font-size: 12px;
     top: 28%;
     left: 2%;
   }
   .realEstate{
-    right: 73.5%;
+    right: 75.5%;
+    line-height: 26px;
+    font-size: 21px;
+    top: 18%;
   }
   .btn-real{
     right:86.5%;
-    top: 39%;
+    top: 37%;
+    font-size: 11px;
   }
   .sub-real{
-    right: 87.5%;
+    right: 88.5%;
+    font-size: 11.5px;
+  }
+  .sub-enter1{
+    right: 71.2%;
+    font-size: 11.5px;
+    top: 29%;
+    line-height: 16px;
+  }
+  .sub-enter2, .sub-marriage{
+    font-size: 11.5px;
+    top: 28%;
+    right: 81%;
+  }
+  .sub-enter2{
+    right: 80%;
+  }
+  .sub-marriage{
+    top: 27%;
+    right: 74.7%;
+  }
+  .sub-dog{
+    font-size: 11.5px;
+    top: 21%;
+    right: 89.5%;
   }
   .cat{
     font-size: 20px;
+    top: 18%;
   }
-  .sub-cat{
-    font-size: 12px;
-    right: 68.5%;
+  .sub-cat, .sub-kid{
+    font-size: 11.5px;
+    right: 69.5%;
   }
   .enter2{
-    right: 61.2%;
+    right: 62.5%;
+    font-size: 19px;
   }
-  .btn-cat{
+  .btn-cat, .btn-dog, .btn-cat{
     right: 86.5%;
     top: 35%;
   }
   .btn-enter1{
     right: 87%;
+  }
+  .btn-marriage{
+    top: 34%;
   }
   .rope{
     font-size: 24px;
@@ -575,45 +743,66 @@
 }
 
 @media (max-width: 320px) {
-  .enter2{
+  .enter2, .dog{
     font-size: 18px;
     line-height: 21px;
     right: 60.5%;
     text-align: left;
     top: 19%;
   }
-  .nyc{
+  .nyc, .gloves, .money{
     font-size: 19px;
     line-height: 24px;
     left: 2%;
     top: 19%
   }
-  .cat{
+  .sub-gloves{
+    top: 27%;
+  }
+  .kid{
+    right: 62.4%;
+  }
+  .cat, .kid{
     font-size: 18px;
     left: 1.5%;
     top: 19%
   }
-  .enter1, .realEstate{
+  .dog{
+    font-size: 17px;
+    right: 61.5%;
+  }
+  .enter1, .realEstate, .marriage{
     font-size: 19px;
     line-height: 21px;
     left: 2%;
     top: 17%;
   }
-  .sub-cat {
+  .sub-cat, .sub-kid, .sub-dog, .sub-money{
     font-size: 11px;
     top: 23%;
     right: 67.5%;
   }
-  .sub-nyc{
+  .sub-money{
+    top: 28%;
+    left: 1.9%;
+    font-size: 11px;
+  }
+  .sub-nyc, .sub-gloves{
     font-size: 12px;
     top: 28%;
     left: 2%;
   }
-  .sub-enter1{
+  .sub-gloves{
+    top: 27.3%;
+  }
+  .sub-enter1, .sub-marriage{
     right: 71%;
     font-size: 10px;
     top: 29%;
     line-height: 13px;
+  }
+  .sub-marriage{
+    right: 75%;
   }
   .sub-enter2{
     right: 80.9%;
@@ -621,17 +810,35 @@
     top: 31%;
     line-height: 13px;
   }
+  .sub-dog{
+    right: 88.8%;
+    top:21%;
+  }
   .sub-real{
     right: 88%;
     font-size: 10px;
     top: 30%;
     line-height: 13px;
   }
-  .btn-enter1, .btn-cat, .btn-real{
+  .btn-enter1, .btn-cat, .btn-real, .btn-kid, .btn-marriage, .btn-dog, .btn-gloves{
     right: 85.6%;
     top: 39%;
     font-size: 10px;
     background-color: transparent;
+  }
+  .btn-dog{
+    right: 85.8%;
+    top: 34%;
+  }
+  .btn-kid{
+    right: 85.1%;
+    top: 36%;
+  }
+  .btn-gloves{
+    top: 40%;
+  }
+  .btn-money{
+    top:42%;"
   }
   .btn-enter2{
     right: 86.6%;

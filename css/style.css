@@ -4696,8 +4696,11 @@ Main components
   top:30%;
   left: 7%;
 }
-.sub-real{
-  top:40%;"
+.sub-real, .sub-marriage, .sub-marriage{
+  top:40%;
+}
+.sub-money{
+  top:38%;
 }
 .sub-enter1{
   top:42%;
@@ -4705,8 +4708,20 @@ Main components
   text-align:right;
   font-size:17px;
 }
+.sub-kid{
+  top:33%;
+}
+.btn-kid{
+  top:45%;
+}
+.btn-dog{
+  top: 42%;
+}
 .btn-enter1{
-  top:55%;
+  top: 54%;
+}
+.btn-marriage{
+  top:52%;
 }
 .btn-enter2{
   top:48%;
@@ -4723,9 +4738,15 @@ Main components
   top:32%;
   right:56%;
 }
+.sub-dog{
+  top:32%;
+}
 .btn-rope{
   top:42%;
   right:57%;
+}
+.sub-gloves{
+  top: 38%;
 }
 
 .services-icon{
@@ -4734,6 +4755,9 @@ Main components
 }
 .navbar-toggle:focus .icon-bar, .navbar-toggle:hover .icon-bar {
     background-color: black;
+}
+#contact{
+  background-color: #242424;
 }
 
 
