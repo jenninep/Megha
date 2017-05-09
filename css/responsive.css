@@ -401,17 +401,23 @@
     left: 32%;
   }
 }
+@media (max-width: 732px) {
+    .rope{right: 4.4%;}
+    .sub-gloves{top:40%;}
+    .sub-money {top: 39%;}
+    .sub-enter2 {top: 37%;}
+    .rope{right: 6.4%;}
+  }
 @media (max-width: 736px) {
   .carousel-control.right {
     left: 92%;
   }
-  .btn-dog{
-    right: 8.3%;
-  }
-  .sub-enter1{
-    line-height: 18px;
-    top: 44%;
-  }
+  .btn-dog{right: 8.3%;}
+  .sub-enter1{line-height: 18px;top: 44%;}
+  .rope{right: 7%;}
+  .sub-gloves, .sub-marriage{top: 40%}
+  .sub-enter2{top: 37%;}
+  .sub-money{top: 39%;}
 }
 @media (max-width: 640px) {
   .overlay-menu ul li a {
@@ -423,8 +429,22 @@
   .intro.style-2 .intro-text p {
     font-size: 24px;
   }
+  .btn-gloves{
+    top: 59%
+  }
+  .sub-enter1 {top: 47%;} .btn-enter1{top: 65%} .btn-enter2{top: 56%;} .rope{right: 2%} .btn-money{top: 59%;}
+  }
 }
-
+@media (max-width: 568px) {
+  .nyc, .cat, .realEstate, .enter1, .enter2, .kid, .marriage, .gloves, .money, .rope, .dog{
+    font-size: 22px;
+    line-height: 25px;
+  }
+  .rope{right: 3.4%}
+}
+@media (max-width: 667px) {
+  .rope{right: 4.6%}
+}
 @media (max-width: 480px) {
   .entry-comments .comment-avatar {
     width: 60px;

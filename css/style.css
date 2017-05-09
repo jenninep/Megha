@@ -340,7 +340,7 @@ p {
   padding: 0 20px;
   line-height: 90px;
   color: #000;
-  font-size: 13px;
+  font-size: 12px;
   letter-spacing: 0.02em;
   font-weight: bold;
   -webkit-transition: all 0.3s ease-in-out;
@@ -2022,7 +2022,7 @@ p {
   height: 50px;
   -webkit-border-radius: 50%;
   border-radius: 50%;
-  border: 2px solid #bfa67a;
+  border: 1px solid #8c1471;
   text-align: center;
   position: absolute;
   left: 0;
@@ -4757,8 +4757,10 @@ Main components
     background-color: black;
 }
 #contact{
-  background-color: #242424;
+  background-color: #fff;
 }
+input{font-size: 12px;}
+
 
 
 
