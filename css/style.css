@@ -4761,7 +4761,12 @@ Main components
 }
 input{font-size: 12px;}
 
-
+.process-icon{
+    width: 11.5em;
+    border: solid 1px white;
+    border-radius: 50%;
+    padding: 34px;
+}
 
 
 /*# sourceMappingURL=style.css.map */
