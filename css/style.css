@@ -3647,6 +3647,7 @@ ol.numbers {
   color: #fff;
 }
 
+
 .btn.btn-white:focus {
   color: #111;
 }
@@ -4211,7 +4212,7 @@ Main components
   height: 50px;
   padding-top: 8px;
 /*  margin-left: -25px;*/
-  background: rgba(32, 32, 34, 0.9);
+  background: rgba(140, 20, 113, 0.9);
   font-family: "Georgia", serif;
   color: #ffffff;
   font-size: 70px;
@@ -4267,7 +4268,7 @@ Main components
 @media only screen and (min-width: 1170px) {
   .cd-testimonials p {
     font-size: 26px;
-    font-size: 1.625rem;
+    font-size: 1.875rem;
     line-height: 1.8;
   }
 }
@@ -4298,19 +4299,20 @@ Main components
 }
 @media only screen and (min-width: 768px) {
   .cd-author img {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
   }
   .cd-author .cd-author-info {
     line-height: 1.4;
   }
   .cd-author .cd-author-info li:first-child {
     font-size: 16px;
-    font-size: 1rem;
+    font-size: 1.5rem;
+    color: black;
   }
   .cd-author .cd-author-info li:last-child {
     font-size: 14px;
-    font-size: 0.875rem;
+    font-size: 1.2rem;
   }
 }
 
@@ -4339,7 +4341,7 @@ Main components
   transition: background-color 0.2s;
 }
 .no-touch .flex-direction-nav li a:hover {
-  background-color: #323234;
+  background-color: #d6d6d6;
 }
 .flex-direction-nav li a::before, .flex-direction-nav li a::after {
   /* left and right arrows in css only */
@@ -4469,7 +4471,7 @@ Main components
 }
 .cd-testimonials-all p {
   position: relative;
-  background: #79b6e4;
+  background: #8c1471;
   color: #ffffff;
   padding: 2em;
   -webkit-font-smoothing: antialiased;
@@ -4487,7 +4489,7 @@ Main components
   height: 0;
   width: 0;
   border: 8px solid transparent;
-  border-top-color: #79b6e4;
+  border-top-color: #8c1471;
 }
 .cd-testimonials-all .cd-author {
   text-align: left;
