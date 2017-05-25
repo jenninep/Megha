@@ -4685,7 +4685,7 @@ Main components
 }
 .nyc{
   line-height:45px; 
-  top:16%;
+  top:19%;
   left: 7%;
 }
 .enter2{
@@ -4761,13 +4761,16 @@ Main components
 #contact{
   background-color: #fff;
 }
-input{font-size: 12px;}
+input, textarea{font-size: 13px;}
 
 .process-icon{
     width: 11.5em;
     border: solid 1px white;
     border-radius: 50%;
     padding: 34px;
+}
+h1{
+  margin-top: -10px;
 }
 
 
