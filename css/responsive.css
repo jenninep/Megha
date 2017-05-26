@@ -299,6 +299,16 @@
   .btn-nyc, .btn-cat, .btn-real, .btn-enter1, .btn-enter2, .btn-kid, .btn-marriage, .btn-money, .btn-dog, .btn-rope, .btn-gloves{
     font-size: 12px;
   }
+  .flex-direction-nav .flex-prev {
+    left: -15px;
+  }
+  .flex-direction-nav .flex-next {
+    right: -15px;
+  }
+  .cd-testimonials p{
+    font-size: 1.5rem;
+    line-height: 1.6;
+  }
 }
 @media (max-width: 767px) {
   .section-wrap {

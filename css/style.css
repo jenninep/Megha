@@ -4287,10 +4287,12 @@ Main components
 .cd-author .cd-author-info {
   text-align: left;
   line-height: 1.2;
+  color:black;
 }
 .cd-author .cd-author-info li:first-child {
   font-size: 14px;
   font-size: 0.875rem;
+  color:black;
 }
 .cd-author .cd-author-info li:last-child {
   font-size: 12px;
@@ -4351,7 +4353,7 @@ Main components
   top: 50%;
   width: 2px;
   height: 13px;
-  background-color: #ffffff;
+  background-color: grey;
 }
 .flex-direction-nav li a::before {
   -webkit-transform: translateY(-35px) rotate(45deg);
@@ -4774,5 +4776,8 @@ h1{
 }
 p{color: #292828;}
 
+.service-item{
+  padding-top: 25px;
+}
 
 /*# sourceMappingURL=style.css.map */
