@@ -309,6 +309,10 @@
     font-size: 1.5rem;
     line-height: 1.6;
   }
+  .franchise-title{
+    padding-top: 8%;
+  }
+  
 }
 @media (max-width: 767px) {
   .section-wrap {
@@ -410,6 +414,7 @@
   .carousel-control.right {
     left: 32%;
   }
+
 }
 @media (max-width: 732px) {
     .rope{right: 4.4%;}
