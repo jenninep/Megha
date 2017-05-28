@@ -488,7 +488,7 @@
         $.ajax({
             type: "POST",
             url: 'contact.php',
-            // dataType: 'json',
+            dataType: 'json',
             cache: false,
             data: $('#contact-form').serialize(),
             success: function(data) {
