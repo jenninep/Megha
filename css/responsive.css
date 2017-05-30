@@ -497,7 +497,7 @@
   .realEstate{
     font-size: 23px;
     right: 76.5%;
-    top: 16%;
+    top: 18%;
     line-height: 31px;
     text-align: left;
   }
@@ -520,12 +520,13 @@
  .nyc{
     font-size: 23px;
     line-height: 29px;
-    top: 17%;
+    top: 20%;
+    /*font-weight: 500;*/
  }
  .enter1, .gloves, .money, .rope{
     font-size: 23px;
     right: 72.5%;
-    top: 16%;
+    top: 18%;
     line-height: 25px;
     text-align: left;
   }
@@ -535,12 +536,12 @@
   }
   .gloves{
     right: 70.8%;
-    top: 18%;
+    top: 19%;
   }
   .cat, .kid, .dog, .money{
     font-size: 23px;
     right: 61.5%;
-    top: 16%;
+    top: 19%;
   }
   .money{
     right: 75.5%;
@@ -558,7 +559,7 @@
  .enter2, .marriage{
     font-size: 22px;
     right: 62.5%;
-    top: 16%;
+    top: 18%;
     line-height: 25px;
     text-align: left;
   }
