@@ -42,7 +42,7 @@
 	}
 
 	//Send Mail
-	// $headers = 'From: ' . $mail .''. "\r\n".
+	$headers = 'From: ' . $mail .''. "\r\n".
 	'Reply-To: '.$mail.'' . "\r\n" .
 	'X-Mailer: PHP/' . phpversion();
 

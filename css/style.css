@@ -4286,12 +4286,12 @@ Main components
 }
 .cd-author .cd-author-info {
   text-align: left;
-  line-height: 1.2;
+  line-height: small;
   color:black;
 }
 .cd-author .cd-author-info li:first-child {
   font-size: 14px;
-  font-size: 0.875rem;
+  font-size: 1.3rem;
   color:black;
 }
 .cd-author .cd-author-info li:last-child {
@@ -4314,8 +4314,13 @@ Main components
   }
   .cd-author .cd-author-info li:last-child {
     font-size: 14px;
-    font-size: 1.2rem;
+    font-size: small;
   }
+}
+@media only screen and (min-width: 414px) {
+  .cd-author .cd-author-info li:last-child, li:first-child{
+    font-size: 14px;
+    font-size: small;
 }
 
 .flex-direction-nav li {
@@ -4707,7 +4712,7 @@ Main components
   top:38%;
 }
 .sub-enter1{
-  top:42%;
+  top:34%;
   line-height:29px;
   text-align:right;
   font-size:18px;
@@ -4785,5 +4790,16 @@ p{color: #292828;}
   display: inline-table;
   line-height: 34px;
 }
+.btn:focus{color:#8c1471;}
+.btn:active{color:white;}
 
-/*# sourceMappingURL=style.css.map */
+
+.topbar-right {
+  float: right;
+  font-size: 15px;
+}
+
+
+
+
+
