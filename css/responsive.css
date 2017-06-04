@@ -448,7 +448,6 @@
     top: 59%
   }
   .sub-enter1 {top: 47%;} .btn-enter1{top: 65%} .btn-enter2{top: 56%;} .rope{right: 2%} .btn-money{top: 59%;}
-  }
 }
 @media (max-width: 568px) {
   .nyc, .cat, .realEstate, .enter1, .enter2, .kid, .marriage, .gloves, .money, .rope, .dog{
@@ -521,7 +520,7 @@
     font-size: 23px;
     line-height: 29px;
     top: 20%;
-    /*font-weight: 500;*/
+  
  }
  .enter1, .gloves, .money, .rope{
     font-size: 23px;
@@ -654,6 +653,7 @@
   }
 }
 @media (max-width: 375px) {
+  
   .nyc{
     font-size: 22px;
     line-height: 28px;

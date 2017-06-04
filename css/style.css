@@ -4335,7 +4335,7 @@ Main components
 .flex-direction-nav li:last-child {
   right: 0;
 }
-.flex-direction-nav li a {
+/*.flex-direction-nav li a {
   display: block;
   height: 100%;
   width: 100%;
@@ -4346,7 +4346,7 @@ Main components
   -webkit-transition: background-color 0.2s;
   -moz-transition: background-color 0.2s;
   transition: background-color 0.2s;
-}
+}*/
 .no-touch .flex-direction-nav li a:hover {
   background-color: #d6d6d6;
 }
