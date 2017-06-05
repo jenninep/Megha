@@ -447,7 +447,7 @@ p {
 }
 
 .logo-wrap.shrink img {
-  height: 48px;
+  height: 36px;
 }
 
 .navbar-collapse.in {
@@ -4696,10 +4696,10 @@ Main components
   left: 7%;
 }
 .enter2{
-  top:23%;
+  top:20%;
 }
 .sub-enter2{
-  top:36%;
+  top:26%;
 }
 .sub-nyc{
   top:30%;
@@ -4733,7 +4733,7 @@ Main components
   top:52%;
 }
 .btn-enter2{
-  top:48%;
+  top:37%;
 }
 .btn-real{
   top:51%;
