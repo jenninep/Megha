@@ -95,7 +95,7 @@ a {
 
 a:hover, a:focus {
   text-decoration: none;
-  color: #7a7a7a;
+  color: purple;
   outline: none;
 }
 
@@ -194,7 +194,7 @@ p {
   content: "";
   display: block;
   width: 48px;
-  border-bottom: 3px solid #e8e8e8;
+  border-bottom: 3px solid #8c1471;;
   margin: 15px auto 15px;
 }
 
@@ -447,7 +447,7 @@ p {
 }
 
 .logo-wrap.shrink img {
-  height: 36px;
+  height: 44px;
 }
 
 .navbar-collapse.in {
@@ -4321,6 +4321,7 @@ Main components
   .cd-author .cd-author-info li:last-child, li:first-child{
     font-size: 14px;
     font-size: small;
+  }
 }
 
 .flex-direction-nav li {
@@ -4335,18 +4336,18 @@ Main components
 .flex-direction-nav li:last-child {
   right: 0;
 }
-/*.flex-direction-nav li a {
+.flex-direction-nav li a {
   display: block;
   height: 100%;
   width: 100%;
-  /* image replacement */
+   /*image replacement */
   overflow: hidden;
   text-indent: 100%;
   white-space: nowrap;
   -webkit-transition: background-color 0.2s;
   -moz-transition: background-color 0.2s;
   transition: background-color 0.2s;
-}*/
+}
 .no-touch .flex-direction-nav li a:hover {
   background-color: #d6d6d6;
 }
@@ -4797,6 +4798,11 @@ p{color: #292828;}
 .topbar-right {
   float: right;
   font-size: 15px;
+}
+.story-copy{
+  font-size:16px;
+  padding:25px;
+  line-height: 28px;
 }
 
 
