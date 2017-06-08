@@ -498,7 +498,7 @@
   }
   .realEstate{
     font-size: 23px;
-    right: 76.5%;
+    right: 78%;
     top: 18%;
     line-height: 31px;
     text-align: left;
@@ -520,15 +520,14 @@
     left: 32%;
   }
  .nyc{
-    font-size: 23px;
+    font-size: 24px;
     line-height: 29px;
-    top: 20%;
-  
+    top: 17%;
  }
  .enter1, .gloves, .money, .rope{
     font-size: 23px;
-    right: 72.5%;
-    top: 18%;
+    right: 68%;
+    top: 16%;
     line-height: 25px;
     text-align: left;
   }
@@ -537,7 +536,7 @@
     line-height: 30px;
   }
   .gloves{
-    right: 70.8%;
+    right: 66.8%;
     top: 19%;
   }
   .cat, .kid, .dog, .money{
@@ -548,6 +547,7 @@
   .money{
     right: 75.5%;
     line-height: 29px;
+    top: 17%;
   }
  
   .dog{
@@ -570,12 +570,13 @@
     top: 17%;
   }
   .marriage{
-    right: 67.5%;
+    right: 61.6%;
+    top: 15%;
   }
  .sub-nyc, .sub-money {
-    top: 27%;
+    top: 26%;
     left: 2%;
-    font-size: 13px;
+    font-size: 15px;
   }
   .sub-money{
     top: 24.6%;
@@ -586,17 +587,17 @@
     left: 2.8%;
   }
   .sub-cat, .sub-dog, .sub-gloves{
-    right: 70.5%;
-    font-size: 13px;
+    right: 65.9%;
+    font-size: 15px;
     top: 20.5%;
   }
   .sub-dog{
-    right: 89.5%
+   right: 88.3%;
   }
   .sub-enter1{
     right: 70.5%;
     font-size: 13px;
-    top: 27.5%;
+    top: 21.5%;
     text-align: left;
     line-height: 19px;
   }
@@ -608,11 +609,12 @@
     line-height: 19px;
   }
   .sub-marriage{
-    right: 74.5%;
+    right: 71.5%;
+    top: 25%;
   }
   .sub-rope {
-    top: 30%;
-    right: 88%;
+    top: 28%;
+    right: 86.5%;
   }
   .btn-cat, .btn-kid, .btn-dog, .btn-gloves, .btn-money, .btn-rope{
     right: 87%;
@@ -625,7 +627,7 @@
     top: 36%;
   }
   .sub-gloves{
-    right: 89.7%;
+    right: 88.5%;
     top: 25.5%;
   }
   .btn-dog{
@@ -634,7 +636,7 @@
   .btn-enter1, .btn-marriage{
     right: 86%;
     font-size: 13px;
-    top: 38%;
+    top: 34%;
     background-color: transparent;
   }
   .btn-marriage{
@@ -657,6 +659,15 @@
   .btn-rope{
     top: 37%;
     right: 86.5%;
+  }
+  .storyTitle{
+    padding-top: 5%;
+  }
+  .storyRow{
+    padding-top: 40px;
+  }
+  .story-copy{
+    padding-top: 5%;
   }
 }
 @media (max-width: 375px) {

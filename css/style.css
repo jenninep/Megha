@@ -4740,13 +4740,10 @@ Main components
   top:51%;
 }
 .rope{
-  right:33%;
-  text-align: left;
   top: 20%;
 }
 .sub-rope{
   top:32%;
-  right:56%;
 }
 .sub-dog{
   top:32%;
@@ -4803,6 +4800,9 @@ p{color: #292828;}
   font-size:16px;
   padding:25px;
   line-height: 28px;
+}
+.storyRow{
+  padding-top: 80px;
 }
 
 
