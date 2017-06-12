@@ -315,6 +315,9 @@
   .franchise-title{
     padding-top: 8%;
   }
+  .storyTitle{
+    padding-top: 20px;
+  }
   
 }
 @media (max-width: 767px) {
@@ -595,8 +598,8 @@
    right: 88.3%;
   }
   .sub-enter1{
-    right: 70.5%;
-    font-size: 13px;
+    right: 68.5%;
+    font-size: 14px;
     top: 21.5%;
     text-align: left;
     line-height: 19px;
@@ -686,7 +689,7 @@
   }
 
   .marriage{
-    right: 66.4%;
+    right: 60.4%;
     top: 16%;
     line-height: normal;
   }
@@ -702,7 +705,7 @@
     right: 62%;
   }
   .realEstate {
-    right: 74.5%;
+    right: 76.5%;
     top: 16%;
     line-height: 30px;
   }
@@ -727,10 +730,12 @@
     top: 28%;
   }
   .sub-rope{
-    right: 87.2%;
+  right: 85.8%;
+
   }
   .sub-gloves{
     top: 25.7%;
+    left: 2%;
   }
   .sub-money{
     top: 25.6%;
@@ -738,9 +743,11 @@
   }
   .sub-enter1{
     right: 70%;
+    top: 22%;
   } 
   .sub-marriage{
-    right: 74.4%;
+    right: 74.8%;
+    top: 26%;
   }
   .sub-enter2{
     right: 62%;
@@ -757,7 +764,7 @@
   }
   .btn-enter1{
     font-size: 11px;
-    top: 39%;
+    top: 35%;
     right: 86.5%;
   }
   .btn-real, .btn-marriage{

@@ -3935,7 +3935,7 @@ label {
 /* Footer
 /*-------------------------------------------------------*/
 .footer.minimal {
-  padding: 120px 0;
+  padding: 85px 0;
   text-align: center;
 }
 
@@ -4349,7 +4349,7 @@ Main components
   transition: background-color 0.2s;
 }
 .no-touch .flex-direction-nav li a:hover {
-  background-color: #d6d6d6;
+  background-color: #8c1471;
 }
 .flex-direction-nav li a::before, .flex-direction-nav li a::after {
   /* left and right arrows in css only */
@@ -4716,7 +4716,6 @@ Main components
   top:34%;
   line-height:29px;
   text-align:right;
-  font-size:18px;
 }
 .sub-kid{
   top:33%;
@@ -4728,7 +4727,7 @@ Main components
   top: 42%;
 }
 .btn-enter1{
-  top: 54%;
+  top: 48%;
 }
 .btn-marriage{
   top:52%;
@@ -4750,7 +4749,7 @@ Main components
 }
 .btn-rope{
   top:42%;
-  right:57%;
+  right: 8.4%;
 }
 .sub-gloves{
   top: 38%;
@@ -4797,12 +4796,27 @@ p{color: #292828;}
   font-size: 15px;
 }
 .story-copy{
-  font-size:16px;
+  font-size:17px;
   padding:25px;
   line-height: 28px;
 }
 .storyRow{
   padding-top: 80px;
+}
+
+.address-list ul li {
+    padding-left: 30px;
+    position: relative;
+    width: 33%;
+    float: left;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 3px 0;
+    
+}
+#check{
+  color: #8c1471;
+  padding: 0px 20px;
 }
 
 
