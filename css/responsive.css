@@ -1,6 +1,7 @@
 @media (max-width: 1200px) {
   .navbar-nav > li > a {
-    padding: 0 15px;
+    padding: 0px 12px;
+    font-size: 11px;
   }
   .works-grid-3-col-wide .container-fluid {
     padding: 0 15px;
@@ -18,11 +19,11 @@
     top: 35%;
   }
   .sub-enter1 {
-  top: 45%;
-  line-height: 24px;
+    top: 37%;
+    line-height: 30px;
   }
   .btn-enter1 {
-    top: 59%;
+    top: 54%;
   }
   .rope {
     right: 6%;
@@ -30,20 +31,26 @@
   }
   .sub-rope {
     top: 37%;
-    right: 37.7%;
+    right: 6.7%;
   }
   .sub-money {
     top: 42%;
   }
   .btn-rope {
     top: 50%;
-    right: 39%;
+    right: 7%;
   }
   .btn-gloves{
     top: 53%;
   }
   .btn-enter2{
     top: 42%;
+  }
+  .btn-dog {
+    top: 46%;
+  }
+  .btn-real {
+    top: 53%;
   }
   .btn-money, .btn-marriage{
     top: 55%;
@@ -303,10 +310,10 @@
     font-size: 12px;
   }
   .flex-direction-nav .flex-prev {
-    left: -15px;
+    left: -2px;
   }
   .flex-direction-nav .flex-next {
-    right: -15px;
+    right: -2px;
   }
   .cd-testimonials p{
     font-size: 1.5rem;
@@ -434,11 +441,13 @@
     left: 92%;
   }
   .btn-dog{right: 8.3%;}
-  .sub-enter1{line-height: 18px;top: 44%;}
+  .sub-enter1{line-height: 18px;top: 36%;}
   .rope{right: 7%;}
   .sub-gloves, .sub-marriage{top: 40%}
-  .sub-enter2{top: 37%;}
+  .sub-enter2{top: 24%;}
   .sub-money{top: 39%;}
+  .btn-enter1 {top: 51%;}
+  .btn-enter2 {top: 40%;background: transparent;}
 }
 @media (max-width: 640px) {
   .overlay-menu ul li a {
@@ -921,15 +930,16 @@
     right: 61.5%;
   }
   .enter1, .realEstate, .marriage{
-    font-size: 19px;
+    font-size: 18px;
     line-height: 21px;
     left: 2%;
     top: 17%;
   }
+  .marriage{left: 1%;}
   .sub-cat, .sub-kid, .sub-dog, .sub-money{
-    font-size: 11px;
-    top: 23%;
-    right: 67.5%;
+    font-size: 12px;
+    top: 20%;
+    right: 64.5%;
   }
   .sub-money{
     top: 27%;
@@ -945,46 +955,47 @@
     top: 27.3%;
   }
   .sub-rope{
-    top: 32%;
+    top: 31%;
   }
   .sub-enter1, .sub-marriage{
-    right: 71%;
-    font-size: 10px;
-    top: 29%;
-    line-height: 13px;
+    right: 65.7%;
+    font-size: 12px;
+    top: 21.4%;
+    line-height: 15px;
   }
   .sub-marriage{
-    right: 75%;
+    right: 71.8%;
+    top: 27%;
   }
   .sub-enter2{
     right: 62.4%;
-    font-size: 11px;
+    font-size: 12px;
     top: 25%;
     line-height: 13px;
   }
   .sub-dog{
-    right: 88.8%;
+    right: 87.8%;
     top:21%;
   }
   .sub-real{
-    right: 88%;
-    font-size: 10px;
-    top: 30%;
+    right: 86.7%;
+    font-size: 12px;
+    top: 28%;
     line-height: 13px;
   }
   .btn-enter1, .btn-cat, .btn-real, .btn-kid, .btn-marriage, .btn-dog, .btn-gloves, .btn-rope{
-    right: 85.6%;
-    top: 39%;
-    font-size: 10px;
+    right: 83.9%;
+    top: 35%;
+    font-size: 12px;
     background-color: transparent;
   }
   .btn-dog{
-    right: 85.8%;
-    top: 34%;
+    right: 83.8%;
+    top: 35%;
   }
   .btn-kid{
-    right: 85.1%;
-    top: 36%;
+    right: 83.3%;
+    top: 34%;
   }
   .btn-gloves{
     top: 40%;
@@ -993,8 +1004,9 @@
     top:42%;
   }
   .btn-rope{
-    
+    top: 40%;
   }
+  .btn-marriage{right: 84.9%;}
   .btn-enter2{
     right: 63%;
     top: 33%;
