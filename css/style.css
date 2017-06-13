@@ -3941,7 +3941,7 @@ label {
 
 .footer.minimal .copyright {
   display: block;
-  margin-top: 70px;
+  margin-top: 15px;
   font-size: 10px;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
@@ -3949,7 +3949,8 @@ label {
 }
 
 .footer.minimal .copyright a {
-  color: #909090;
+  color: #8c1471;
+  cursor: pointer;
 }
 
 .socials.footer-socials a {
@@ -4320,7 +4321,6 @@ Main components
 @media only screen and (min-width: 414px) {
   .cd-author .cd-author-info li:last-child, li:first-child{
     font-size: 14px;
-    font-size: small;
   }
 }
 
@@ -4818,6 +4818,14 @@ p{color: #292828;}
   color: #8c1471;
   padding: 0px 20px;
 }
+.footerLinksDiv{
+  display:flex;
+  font-size: 14px;
+  color: #8c1471;
+}
+.footer-links{
+  padding:0 2%;
+
 
 
 
