@@ -373,7 +373,7 @@ p {
 }
 
 .navbar-header {
-  max-width: 20%;
+  width: 20%;
   padding-right: 15px;
 }
 
@@ -443,7 +443,7 @@ p {
   -ms-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  max-width: 107%;
+  width: 107%;
 }
 
 .logo-wrap.shrink img {
