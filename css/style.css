@@ -373,7 +373,7 @@ p {
 }
 
 .navbar-header {
-  width: 20%;
+  max-width: 20%;
   padding-right: 15px;
 }
 
