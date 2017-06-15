@@ -131,7 +131,7 @@ video {
 
 body img {
   border: none;
-  max-width: 100%;
+  width: 100%;
   -webkit-user-select: none;
   -khtml-user-select: none;
   -moz-user-select: none;
@@ -4603,6 +4603,10 @@ Main components
 
 .carousel-fade .carousel-inner .active {
   opacity: 2;
+   -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity; 
 }
 .carousel-fade .carousel-inner .active.left,
 .carousel-fade .carousel-inner .active.right {
@@ -4613,6 +4617,10 @@ Main components
 .carousel-fade .carousel-inner .next.left,
 .carousel-fade .carousel-inner .prev.right {
   opacity: 1;
+   -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity; 
 }
 .carousel-fade .carousel-control {
   z-index: 2;
