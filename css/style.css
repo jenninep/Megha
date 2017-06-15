@@ -4831,12 +4831,13 @@ p{color: #292828;}
   padding: 0px 20px;
 }
 .footerLinksDiv{
-  display:flex;
+ 
   font-size: 14px;
   color: #8c1471;
 }
 .footer-links{
   padding:0 2%;
+  display: inline-block;
 }
 #footer-logo{
   width: inherit;
