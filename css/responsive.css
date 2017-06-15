@@ -56,11 +56,7 @@
     top: 55%;
   }
 }
-@media(max-width: 801) {
-  #footer-logo{
-    width: 40%;
-  }
-}
+
 @media (max-width: 991px) {
   .section-wrap,
   .section-wrap-mp {
@@ -254,6 +250,26 @@
   }
   #ytb-wrap .hero-text {
     font-size: 76px;
+  }
+}
+@media(max-width: 800px) {
+  .nyc{
+    top: 17%;
+    font-size: 30px;
+    line-height: 37px;
+  }
+  .sub-nyc{
+    font-size: 15.7px;
+    top: 31%;
+  }
+  .marriage, .gloves, .money, .realEstate{
+    line-height: 37px;
+  }
+  .realEstate, .cat, .enter1, .enter2, .kid, .marriage, .rope, .dog, .gloves, .money{
+    font-size: 30px;
+  }
+  .sub-cat, .sub-real, .sub-enter1, .sub-enter2, .sub-kid, .sub-marriage, .sub-money, .sub-rope, .sub-gloves, .sub-dog{
+    font-size: 17.5px;
   }
 }
 @media (max-width: 768px) {
