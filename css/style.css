@@ -4766,6 +4766,7 @@ Main components
 .services-icon{
   display: inline-block;
   margin-bottom: 27px;
+  width: inherit;
 }
 .navbar-toggle:focus .icon-bar, .navbar-toggle:hover .icon-bar {
     background-color: black;
