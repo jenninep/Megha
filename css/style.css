@@ -447,7 +447,7 @@ p {
 }
 
 .logo-wrap.shrink img {
-  height: 44px;
+  width: 100%;
 }
 
 .navbar-collapse.in {
