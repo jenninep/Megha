@@ -56,7 +56,11 @@
     top: 55%;
   }
 }
-
+@media(max-width: 801) {
+  #footer-logo{
+    width: 40%;
+  }
+}
 @media (max-width: 991px) {
   .section-wrap,
   .section-wrap-mp {

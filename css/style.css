@@ -496,7 +496,7 @@ p {
     padding-right: 0;
   }
   .logo-wrap img {
-    height: 41px;
+    width: 80%;
     padding-left: 15px;
   }
   .logo-wrap > a {
@@ -4812,6 +4812,9 @@ p{color: #292828;}
 .storyRow{
   padding-top: 80px;
 }
+.story-logos{
+  width: 39%;
+}
 
 .address-list ul li {
     padding-left: 30px;
@@ -4834,7 +4837,10 @@ p{color: #292828;}
 }
 .footer-links{
   padding:0 2%;
-
+}
+#footer-logo{
+  width: inherit;
+}
 
 
 
