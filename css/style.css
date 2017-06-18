@@ -496,7 +496,7 @@ p {
     padding-right: 0;
   }
   .logo-wrap img {
-    width: 80%;
+   /* width: 80%;*/
     padding-left: 15px;
   }
   .logo-wrap > a {

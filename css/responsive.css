@@ -245,8 +245,14 @@
   .nav-type-4 .nav {
     margin: 0;
   }
+  .logo-wrap{
+    width: 50%;
+  }
   .nav-type-4 .logo-wrap > a {
-    height: 60px;
+    height: 14px;
+  }
+  .logo-container{
+    float: none;
   }
   #ytb-wrap .hero-text {
     font-size: 76px;
@@ -468,6 +474,9 @@
   .sub-money{top: 39%;}
   .btn-enter1 {top: 51%;}
   .btn-enter2 {top: 40%;background: transparent;}
+  .logo-wrap{
+    width: 50%;
+  }
 }
 @media (max-width: 640px) {
   .overlay-menu ul li a {
@@ -548,6 +557,9 @@
   }
 }
 @media (max-width: 414px) {
+  .logo-wrap{
+    width: 68%;
+  }
   .carousel-control.right {
     left: 32%;
   }
