@@ -45,6 +45,7 @@
   }
   .btn-enter2{
     top: 42%;
+    background-color: transparent;
   }
   .btn-dog {
     top: 46%;
@@ -299,7 +300,7 @@
     top: 33%;
     left: 7.2%;
   }
-  .sub-cat{top: 32%;} .sub-dog{top: 31%;} .sub-real{top: 41%;} .sub-rope {top: 36%;right: 37%;}
+  .sub-cat{top: 32%;} .sub-dog{top: 31%;} .sub-real{top: 41%;} .sub-rope {top: 36%;right: 38%;}
   .btn-real{
     top: 59%;
   }
@@ -326,7 +327,7 @@
   }
   .btn-rope {
     top: 52%;
-    right: 35.7%;
+    right: 36.7%;
   }
   .sub-enter1{
     line-height: 19px;
@@ -814,6 +815,10 @@
   .btn-real, .btn-marriage{
     font-size: 11px;
     top: 37%;
+  }
+  .btn-marriage{
+    top: 36%;
+    left: 2.3%;
   }
   .btn-cat, .btn-dog{
     right: 87.5%;
