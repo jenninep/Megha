@@ -55,6 +55,9 @@
   .btn-money, .btn-marriage{
     top: 55%;
   }
+  .footer.minimal .copyright {
+  padding: 0 4%;
+  }
 }
 
 @media (max-width: 991px) {
