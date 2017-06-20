@@ -1,8 +1,19 @@
 <?php 
+
+# Include the Autoloader (see "Libraries" for install instructions)
+require 'vendor/autoload.php';
+use Mailgun\Mailgun;
+
+# Instantiate the client.
+$mgClient = new Mailgun('key-7b8eef45e77662e1d59460752fa2273b');
+$domain = "sandbox6f1690849a894907999383a0ff5dae4b.mailgun.org";
+
+
+
 	if($_POST) {
 
-		$to = "jennine@optonline.net"; // Your email here
-		$subject = 'Message from my website'; // Subject message here
+		$to = "mohit.kohok@gmail.com"; // Your email here
+		$subject = 'Apna Message'; // Subject message here
 
 	}
 
@@ -46,5 +57,23 @@
 	'Reply-To: '.$mail.'' . "\r\n" .
 	'X-Mailer: PHP/' . phpversion();
 
+
+	if($headers == ''){
+		 echo json_encode(array('info' => 'error', 'msg' => $headers));
+		exit();
+	}
+       
+
+# Make the call to the client.
+$result = $mgClient->sendMessage($domain, array(
+    'from'    => $mail,
+    'to'      => 'Mohit Kohok <mohit.kohok@gmail.com>',
+    'subject' => $subject,
+    'text'    => $comment
+));
+
+ echo json_encode(array('info' => 'error', 'msg' => $result));
+
 	send_mail($to, $subject, $comment . "\r\n\n"  .'Name: '.$name. "\r\n" .'Email: '.$mail, $headers);
+
 ?>
