@@ -71,6 +71,12 @@ $result = $mgClient->sendMessage($domain, array(
     'subject' => $subject, 
     'text'    => $comment 
 )); 
+if($result) {
+    echo json_encode(array('info' => 'success', 'msg' => "Your message has been sent. Thank you!"));
+} else {
+    echo json_encode(array('info' => 'error', 'msg' => "Error, your message hasn't been sent")); 
+}
+
 
  echo json_encode(array('info' => 'error', 'msg' => $result)); 
  
