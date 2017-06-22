@@ -715,7 +715,10 @@
     padding-top: 40px;
   }
   .story-copy{
-    padding-top: 5%;
+    padding: 3% 3%;
+  }
+  .story-logos {
+    width: 75%;
   }
 }
 @media (max-width: 375px) {
