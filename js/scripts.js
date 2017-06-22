@@ -506,7 +506,7 @@
 })(jQuery);
 
 $('result').mailgun_validator({
-    api_key: 'api-key',
+    api_key: 'key-eea697e1dcd652c3c0386e8631785d13',
     in_progress: in_progress_callback, // called when request is made to validator
     success: success_callback,         // called when validator has returned
     error: validation_error,           // called when an error reaching the validator has occured
