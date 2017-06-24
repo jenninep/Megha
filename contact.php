@@ -1,12 +1,12 @@
 <?php  
  
-// # Include the Autoloader (see "Libraries" for install instructions) 
-// require 'vendor/autoload.php'; 
-// use Mailgun\Mailgun; 
+# Include the Autoloader (see "Libraries" for install instructions) 
+require 'vendor/autoload.php'; 
+use Mailgun\Mailgun; 
  
-// # Instantiate the client. 
-// $mgClient = new Mailgun('key-eea697e1dcd652c3c0386e8631785d13'); 
-// $domain = "app5cc9dd4ad423413580c696abc5ae13ad.mailgun.org"; 
+# Instantiate the client. 
+$mgClient = new Mailgun('key-eea697e1dcd652c3c0386e8631785d13'); 
+$domain = "app5cc9dd4ad423413580c696abc5ae13ad.mailgun.org"; 
 
 
 
@@ -64,13 +64,13 @@
     } 
        
  
-// # Make the call to the client. 
-// $result = $mgClient->sendMessage($domain, array( 
-//     'from'    => $mail, 
-//     'to'      => 'Jennine Punzone <jennine@optonline.net>', 
-//     'subject' => $subject, 
-//     'text'    => $comment 
-// )); 
+# Make the call to the client. 
+$result = $mgClient->sendMessage($domain, array( 
+    'from'    => $mail, 
+    'to'      => 'Jennine Punzone <jennine@optonline.net>', 
+    'subject' => $subject, 
+    'text'    => $comment 
+)); 
 
 
 
